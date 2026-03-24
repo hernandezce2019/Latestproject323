@@ -1,0 +1,296 @@
+/*Color Palete
+
+
+*/
+
+/* Global Styles
+----------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*,* :before, *:after{
+  box-sizing: inherit;
+}
+
+
+/* Index
+---------------------------------*/
+.home {
+  background:url(../images/frente.jpg) no-repeat ;
+  background-size: cover;
+}
+.home  site-title site-description{
+  text-align: center;
+ 
+}
+
+
+/* Script
+----------------------------------*/
+
+/* links
+-------------------------- */
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: beige;
+  text-decoration: none;
+
+}
+
+footer a {
+  color:beige;
+}
+
+footer a:hover {
+  color : green;
+}
+
+.socials{ 
+  list-style-type: none;
+  padding:0;
+}
+.socials img{
+  width:32px;
+
+}
+.socials li {
+  display:inline-block;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.crumb {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  display : inline-flex;
+}
+
+/* Home Page Styling
+----------------------------------*/
+.home1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/frente.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.content-wrapper1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.page-header__heading {
+  margin: 0 0 20px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.page-header p {
+  margin: 15px 0 0 0;
+  font-size: 1.1rem;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.crumbs {
+  margin: 20px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.crumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.crumb {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.crumb:not(:last-child)::after {
+  content: "/";
+  margin: 0 8px;
+  opacity: 0.7;
+}
+
+.crumb a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.crumb a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.maincontent {
+  padding: 40px 30px;
+  min-height: 400px;
+}
+
+.sitefooter {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-top: 3px solid #667eea;
+}
+
+.sitefooter p {
+  margin: 0 0 20px 0;
+}
+
+header {
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/*Login*/
+
+.login-body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #0056b3;
+}
+
+/*customer home*/
+
+.grid-container {
+  display: flex;
+  
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.customer-update-fields {
+  
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 15px;}
